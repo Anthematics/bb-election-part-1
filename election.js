@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	method:"get",
 	datatype:"json"
 
-}).done(response => console.log(response.candidates)) 
+}).done(response => console.log(response.candidates))
+
+	for (let i=0 )
+
+
 });
 //Make sure you're making this request within your DOMContentLoaded block
 //Add a <ul> to your index.html file, with an id. This is what we'll attach our data to.
