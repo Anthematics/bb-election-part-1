@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 }).done(response => console.log(response.candidates))
 
-	for (let i=0 )
+
+	for (let i=0; i < data['candidates'].length; i++){
+	}
 
 
 });
